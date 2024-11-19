@@ -1,9 +1,11 @@
 /* General styling */
+/* Element selector */
 body {
     background-color: #eee;
 }
 
 /* Utility class, use whenever content needs the same max width and centering */
+/* Class selector */
 .container {
     max-width: 800px;
     margin: auto;
@@ -17,12 +19,14 @@ header {
 }
 
 /* Flex properties only for the .container in the header */
+/* Child combinator, to select only .container class who are children of a header element */
 header > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Select all h1 with the class .logo */
 h1.logo {
     font-size: 2rem;
     text-transform: uppercase;
