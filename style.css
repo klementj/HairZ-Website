@@ -8,7 +8,7 @@ body {
     max-width: 800px;
     margin: auto;
     /* Small padding so content can breath when container is squized */
-    padding: .5rem;
+    padding: 0 .5rem;
 }
 
 /* All styling for header */
